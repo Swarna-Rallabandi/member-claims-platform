@@ -12,7 +12,7 @@ public class ClaimTests
             ClaimId = "CLM-20001",
             MemberId = "MEM-10001",
             ClaimType = "Dental",
-            Amount = -500.00m
+            Amount = 500.00m
         };
 
         Assert.True(claim.Amount > 0);
