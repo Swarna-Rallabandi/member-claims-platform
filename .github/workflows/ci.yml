@@ -1,0 +1,34 @@
+name: Member Claims CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore MemberClaims.sln
+
+      - name: Build application
+        run: dotnet build MemberClaims.sln --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test MemberClaims.sln --configuration Release --no-build
+        
