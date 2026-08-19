@@ -15,10 +15,19 @@ on:
         required: false
         type: string
         default: 'Release'  
+      secrets:
+        SONAR_TOKEN:
+          required: true
+        SONAR_HOST_URL:
+          required: true  
+
 jobs:
   build-and-test:
     name: Build and Test
-    runs-on: ubuntu-latest
+    runs-on: 
+      - self-hosted
+      - Windows
+      - X64
 
     steps:
       - name: Checkout source code
@@ -28,6 +37,14 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ inputs.dotnet-version }}
+      - name: Begin SonarQube analysis
+        shell: powershell
+        run: |
+          dotnet sonarscanner begin `
+            /k:"Member-Claims-Platform" `
+            /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}" `
+            /d:sonar.token="${{ secrets.SONAR_TOKEN }}" `
+            /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml"    
 
       - name: Restore dependencies
         run: dotnet restore ${{ inputs.solution }}
@@ -35,13 +52,18 @@ jobs:
       - name: Build application
         run: dotnet build ${{ inputs.solution }} --configuration ${{ inputs.build-configuration }} --no-restore
 
-      - name: Run tests
+      - name: Run tests with code coverage
         run: >
           dotnet test ${{ inputs.solution }}
           --configuration ${{ inputs.build-configuration }}
           --no-build
-          --collect:"XPlat Code Coverage"
+          --collect:"XPlat Code Coverage;Format=opencover"
           --logger "trx;LogFileName=test-results.trx"
+      - name: End SonarQube analysis
+        shell: powershell
+        run: |
+          dotnet sonarscanner end `
+            /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
       - name: Upload test results
         if: always()
