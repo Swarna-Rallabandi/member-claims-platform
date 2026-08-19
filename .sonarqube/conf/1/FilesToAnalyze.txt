@@ -1,0 +1,10 @@
+﻿C:\ADO\bupa\tests\MemberClaims.UnitTests\ClaimTests.cs
+C:\Users\swarn\.nuget\packages\microsoft.net.test.sdk\17.12.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\swarn\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\swarn\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\swarn\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\swarn\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\swarn\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\ADO\bupa\tests\MemberClaims.UnitTests\TestResults\3726a911-aba3-45a3-a3ea-a3928024b298\coverage.cobertura.xml
+C:\ADO\bupa\tests\MemberClaims.UnitTests\TestResults\swarn_SWARNA-HP-LAP_2026-08-19_19_38_06\In\SWARNA-HP-LAP\coverage.cobertura.xml
+C:\ADO\bupa\tests\MemberClaims.UnitTests\TestResults\test-results.trx

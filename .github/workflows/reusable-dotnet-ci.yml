@@ -15,11 +15,11 @@ on:
         required: false
         type: string
         default: 'Release'  
-      secrets:
-        SONAR_TOKEN:
-          required: true
-        SONAR_HOST_URL:
-          required: true  
+    secrets:
+      SONAR_TOKEN:
+        required: true
+      SONAR_HOST_URL:
+        required: true  
 
 jobs:
   build-and-test:
@@ -72,4 +72,4 @@ jobs:
           name: test-results
           path: |
             **/TestResults/**/*.trx
-            **/TestResults/**/coverage.cobertura.xml
+            **/TestResults/**/coverage.opencover.xml
