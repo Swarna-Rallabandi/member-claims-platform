@@ -32,6 +32,8 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4      
+      - name: Secret scan
+        uses: gitleaks/gitleaks-action@v2
       - name: Verify .NET
         run: |
           dotnet --version
@@ -48,7 +50,7 @@ jobs:
 
       - name: Restore dependencies
         run: dotnet restore ${{ inputs.solution }}
-        
+
       - name: Scan vulnerable NuGet packages
         run: dotnet list ${{ inputs.solution }} package --vulnerable --include-transitive
 
