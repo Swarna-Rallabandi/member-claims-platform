@@ -11,6 +11,10 @@ on:
         required: false
         type: string
         default: '9.0.x'
+      build-configuration:
+        required: false
+        type: string
+        default: 'Release'  
 jobs:
   build-and-test:
     name: Build and Test
@@ -29,7 +33,21 @@ jobs:
         run: dotnet restore ${{ inputs.solution }}
 
       - name: Build application
-        run: dotnet build ${{ inputs.solution }} --configuration Release --no-restore
+        run: dotnet build ${{ inputs.solution }} --configuration ${{ inputs.build-configuration }} --no-restore
 
       - name: Run tests
-        run: dotnet test ${{ inputs.solution }} --configuration Release --no-build
+        run: >
+          dotnet test ${{ inputs.solution }}
+          --configuration ${{ inputs.build-configuration }}
+          --no-build
+          --collect:"XPlat Code Coverage"
+          --logger "trx;LogFileName=test-results.trx"
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: |
+            **/TestResults/**/*.trx
+            **/TestResults/**/coverage.cobertura.xml
