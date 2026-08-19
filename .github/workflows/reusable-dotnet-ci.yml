@@ -48,6 +48,9 @@ jobs:
 
       - name: Restore dependencies
         run: dotnet restore ${{ inputs.solution }}
+        
+      - name: Scan vulnerable NuGet packages
+        run: dotnet list ${{ inputs.solution }} package --vulnerable --include-transitive
 
       - name: Build application
         run: dotnet build ${{ inputs.solution }} --configuration ${{ inputs.build-configuration }} --no-restore
