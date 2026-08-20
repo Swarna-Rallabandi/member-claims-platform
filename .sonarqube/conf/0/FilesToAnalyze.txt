@@ -1,0 +1,10 @@
+﻿C:\ADO\bupa\src\MemberClaims.Api\Models\Claim.cs
+C:\ADO\bupa\src\MemberClaims.Api\Program.cs
+C:\ADO\bupa\src\MemberClaims.Api\obj\Release\net9.0\MemberClaims.Api.GlobalUsings.g.cs
+C:\ADO\bupa\src\MemberClaims.Api\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+C:\ADO\bupa\src\MemberClaims.Api\obj\Release\net9.0\MemberClaims.Api.AssemblyInfo.cs
+C:\ADO\bupa\src\MemberClaims.Api\obj\Release\net9.0\MemberClaims.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\ADO\bupa\src\MemberClaims.Api\appsettings.Development.json
+C:\ADO\bupa\src\MemberClaims.Api\appsettings.json
+C:\ADO\bupa\src\MemberClaims.Api\MemberClaims.Api.http
+C:\ADO\bupa\src\MemberClaims.Api\Properties\launchSettings.json

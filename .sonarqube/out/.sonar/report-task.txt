@@ -1,0 +1,6 @@
+projectKey=Member-Claims-Platform
+serverUrl=http://localhost:9000
+serverVersion=26.8.0.126808
+dashboardUrl=http://localhost:9000/dashboard?id=Member-Claims-Platform
+ceTaskId=1d1bd8b0-2838-4663-b9be-a1c9a7fdd5ba
+ceTaskUrl=http://localhost:9000/api/ce/task?id=1d1bd8b0-2838-4663-b9be-a1c9a7fdd5ba

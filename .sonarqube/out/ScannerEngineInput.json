@@ -1,0 +1,144 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1787151014000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "Member-Claims-Platform"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\ADO\\bupa"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\ADO\\bupa"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "C:\\ADO\\bupa\\.github\\workflows\\ci.yml,C:\\ADO\\bupa\\.github\\workflows\\reusable-dotnet-ci.yml"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "7205BE0E-1181-4044-AB1F-E42CC051C48F,7F899507-F79F-4190-9458-60E7C8C28552"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.projectKey",
+      "value": "Member-Claims-Platform:7205BE0E-1181-4044-AB1F-E42CC051C48F"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.projectName",
+      "value": "MemberClaims.Api"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.projectBaseDir",
+      "value": "C:\\ADO\\bupa\\src\\MemberClaims.Api"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.working.directory",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.sources",
+      "value": "C:\\ADO\\bupa\\src\\MemberClaims.Api\\Models\\Claim.cs,C:\\ADO\\bupa\\src\\MemberClaims.Api\\Program.cs,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\MemberClaims.Api.GlobalUsings.g.cs,\"C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs\",C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\MemberClaims.Api.AssemblyInfo.cs,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\MemberClaims.Api.MvcApplicationPartsAssemblyInfo.cs,C:\\ADO\\bupa\\src\\MemberClaims.Api\\appsettings.Development.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\appsettings.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\MemberClaims.Api.http,C:\\ADO\\bupa\\src\\MemberClaims.Api\\Properties\\launchSettings.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\MemberClaims.Api.csproj.nuget.dgspec.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\project.assets.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Debug\\net9.0\\appsettings.Development.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Debug\\net9.0\\appsettings.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Debug\\net9.0\\MemberClaims.Api.deps.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Debug\\net9.0\\MemberClaims.Api.runtimeconfig.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Debug\\net9.0\\MemberClaims.Api.staticwebassets.endpoints.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Release\\net9.0\\appsettings.Development.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Release\\net9.0\\appsettings.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Release\\net9.0\\MemberClaims.Api.deps.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Release\\net9.0\\MemberClaims.Api.runtimeconfig.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\bin\\Release\\net9.0\\MemberClaims.Api.staticwebassets.endpoints.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Debug\\net9.0\\MemberClaims.Api.sourcelink.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Debug\\net9.0\\staticwebassets.build.endpoints.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Debug\\net9.0\\staticwebassets.build.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\MemberClaims.Api.sourcelink.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\staticwebassets.build.endpoints.json,C:\\ADO\\bupa\\src\\MemberClaims.Api\\obj\\Release\\net9.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "7205BE0E-1181-4044-AB1F-E42CC051C48F.sonar.cs.scanner.telemetry",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.projectKey",
+      "value": "Member-Claims-Platform:7F899507-F79F-4190-9458-60E7C8C28552"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.projectName",
+      "value": "MemberClaims.UnitTests"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.projectBaseDir",
+      "value": "C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.working.directory",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.tests",
+      "value": "C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\obj\\MemberClaims.UnitTests.csproj.nuget.dgspec.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\obj\\project.assets.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\appsettings.Development.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\appsettings.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\MemberClaims.Api.deps.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\MemberClaims.Api.runtimeconfig.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\MemberClaims.Api.staticwebassets.endpoints.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\MemberClaims.UnitTests.deps.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Debug\\net9.0\\MemberClaims.UnitTests.runtimeconfig.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\appsettings.Development.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\appsettings.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\MemberClaims.Api.deps.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\MemberClaims.Api.runtimeconfig.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\MemberClaims.Api.staticwebassets.endpoints.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\MemberClaims.UnitTests.deps.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\bin\\Release\\net9.0\\MemberClaims.UnitTests.runtimeconfig.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\obj\\Debug\\net9.0\\MemberClaims.UnitTests.sourcelink.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\obj\\Release\\net9.0\\MemberClaims.UnitTests.sourcelink.json,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\ClaimTests.cs,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\TestResults\\3726a911-aba3-45a3-a3ea-a3928024b298\\coverage.cobertura.xml,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\TestResults\\swarn_SWARNA-HP-LAP_2026-08-19_19_38_06\\In\\SWARNA-HP-LAP\\coverage.cobertura.xml,C:\\ADO\\bupa\\tests\\MemberClaims.UnitTests\\TestResults\\test-results.trx"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\1"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\1\\Issues.json"
+    },
+    {
+      "key": "7F899507-F79F-4190-9458-60E7C8C28552.sonar.cs.scanner.telemetry",
+      "value": "C:\\ADO\\bupa\\.sonarqube\\out\\1\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.cs.opencover.reportsPaths",
+      "value": "**/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.exclusions",
+      "value": "**/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
